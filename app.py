@@ -12,6 +12,14 @@ st.set_page_config(
         page_title="Amazon Bestsellers",
         layout="wide",
     )
+
+st.markdown("""
+<style>
+.stream-github-button {
+  display: none !important;
+}
+</style>
+""")
 st.title("Amazon Bestsellers")	
 st.markdown(' This application is a Streamlit dashboard that can be used to analyze Amazons bestseller data')
 
